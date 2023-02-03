@@ -22,9 +22,9 @@
 					<!-- http://localhost:8080/CrudBookOperation/deleteBook?id=1 -->
 					<td>
 					
-					<a href="${pageContext.request.contextPath}/deleteBook?id=${book.getId()}" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+					<a href="${pageContext.request.contextPath}/bookOperation?target=deleteBook&id=${book.getId()}" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
 					
-					<a href="${pageContext.request.contextPath}/editBook?id=${book.getId()}" >Edit</a>
+					<a href="${pageContext.request.contextPath}/bookOperation?target=editBook&id=${book.getId()}" >Edit</a>
 					
 					</td>
 				</tr>

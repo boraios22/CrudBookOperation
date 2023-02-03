@@ -20,8 +20,8 @@
 
 <div class="row">
 	<div class="col-4">
-	<a class="btn btn-primary" href="index.jsp" role="button">Home</a>
-	<a class="btn btn-primary" href="index.jsp" role="button">Create Book</a>
-	<a class="btn btn-primary" href="${pageContext.request.contextPath}/bookListing" role="button">Book Listing</a>
+	<a class="btn btn-primary" href="home.jsp" role="button">Home</a>
+	<a class="btn btn-primary" href="home.jsp" role="button">Create Book</a>
+	<a class="btn btn-primary" href="${pageContext.request.contextPath}/bookOperation?target=bookListing" role="button">Book Listing</a>
 	</div>
 </div>

@@ -3,7 +3,7 @@
 
 	<div class="container">
 
-		<form action="saveEditBook" method="post">
+		<form action="bookOperation" method="post">
 			<div class="form-group">
 				<label for="title">Title</label> <input type="text"
 					class="form-control" id="title" placeholder="Enter title"
@@ -17,6 +17,7 @@
 			</div>
 			
 			<input type="hidden" name="id" value="${book.getId() }"/>
+			<input type="hidden" name="target" value="updateBook"/>
 
 			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>

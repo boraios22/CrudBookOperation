@@ -21,7 +21,7 @@ public class Book {
 		super();
 	}
 
-	public Book(String title, String author) {
+	public Book(String author, String title) {
 		super();
 		this.title = title;
 		this.author = author;
